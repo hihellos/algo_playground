@@ -2,5 +2,13 @@
 // You may NOT use the built-in reverse method
 
 var reverse = function(str) {
+    let reverse = "";
 
+    for (var i = str.length-1; i >=0; i--) {
+        let letter = str[i];
+        reverse += letter;
+    }
+
+    console.log(reverse);
+    return reverse;
 };
