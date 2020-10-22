@@ -19,10 +19,12 @@ describe("characterCount", function() {
       o: 1,
       r: 1
     });
+  });
 
-    str = "peter piper picked a pack of pickled peppers";
+  it("should return an object containing the counts for each letter in a given string", function() {
+    var str = "peter piper picked a pack of pickled peppers";
 
-    result = characterCount(str);
+    var result = characterCount(str);
 
     expect(result).to.eql({
       p: 9,
