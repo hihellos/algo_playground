@@ -1,8 +1,8 @@
 var expect = chai.expect;
 
-before(function() {
-  sinon.spy(Array.prototype, "indexOf");
-});
+// before(function() {
+//   sinon.spy(Array.prototype, "indexOf");
+// });
 
 describe("linearSearch", function() {
   it("should not call the 'indexOf' method", function() {
